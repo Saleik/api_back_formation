@@ -1,0 +1,26 @@
+{
+  "name": "api_rest_af",
+  "version": "1.0.0",
+  "description": "serveur api back avion",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node_modules/.bin/nodemon --exec babel-node server.js"
+  },
+  "author": "Saleik",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/node": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@jest/globals": "^26.1.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0"
+  }
+}
